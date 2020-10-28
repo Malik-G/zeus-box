@@ -1,0 +1,101 @@
+.login {
+  height: 100vh;
+  /* background-color: white; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* opacity: 0; */
+}
+
+.login-container {
+  width: 300px;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+  border: 1px solid lightgray;
+  padding: 20px;
+  background: whitesmoke;
+  /* z-index: 2; */
+}
+
+.login-logo {
+  width: 100px;
+  object-fit: contain;
+  margin: 20px auto 20px auto;
+  border-radius: 15px;
+}
+
+.login-line-break {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* .login-container h1 {
+  font-weight: 800;
+  margin-bottom: 20px;
+  letter-spacing: 1.5px;
+} */
+
+.login-container h5 {
+  margin-bottom: 5px;
+}
+
+.login-container form input {
+  height: 30px;
+  width: 98%;
+  margin-bottom: 10px;
+}
+
+.login-container p {
+  font-size: 12px;
+}
+
+.login-register {
+  background: rgb(245, 112, 53);
+  border: 1px solid;
+  border-radius: 2px;
+  width: 100%;
+  height: 30px;
+  margin-top: 10px;
+  color: white;
+  letter-spacing: 1.5px;
+  font-weight: 600;
+}
+
+.login-sign-in {
+  background: rgb(245, 112, 53);
+  border: 1px solid;
+  border-radius: 2px;
+  width: 100%;
+  height: 30px;
+  /* margin-top: 10px; */
+  margin-bottom: 10px;
+  color: white;
+  letter-spacing: 1.5px;
+  font-weight: 600;
+}
+
+.login-video {
+  position: fixed;
+  object-fit: contain;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+  opacity: 0.9;
+}
+
+.or {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  font-weight: 800;
+}
+
+.login-title {
+  margin: auto;
+  font-weight: 500;
+  margin-bottom: 20px;
+  letter-spacing: 1.5px;
+  font-family: 'Unica One', cursive;
+}

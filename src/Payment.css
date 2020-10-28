@@ -1,0 +1,57 @@
+.payment {
+  background: white;
+  min-width: 800px;
+}
+
+.cart-link {
+  text-align: center;
+  padding: 10px;
+  font-weight: 300;
+  background-color: white;
+  border-bottom: 1px solid lightgrey;
+  margin: auto;
+}
+
+.cart-link a {
+  text-decoration: none;
+}
+
+.order-total {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.payment-section {
+  display: flex;
+  padding: 20px;
+  margin: 0 20px;
+  border-bottom: 1px solid lightgrey;
+}
+
+.payment-button {
+  background: #f3a846;
+  border: 1px solid;
+  border-radius: 2px;
+  width: 30%;
+  height: 30px;
+  margin-top: 10px;
+  color: black;
+}
+
+.payment-button:hover {
+  background: #131921;
+  border: 1px solid;
+  border-radius: 2px;
+  width: 30%;
+  height: 30px;
+  margin-top: 10px;
+  color: white;
+}
+
+.payment-title {
+  flex: 0.2;
+}
+
+.payment-address, .payment-items, .payment-details {
+  flex: 0.8
+}

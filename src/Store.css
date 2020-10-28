@@ -1,0 +1,48 @@
+.list-icon {
+  margin-right: 30px;
+}
+
+.list-icon:hover, .grid-icon:hover {
+  transform: scale(1.3);
+  border: 1px solid #131921;
+}
+
+.product-container-grid {
+  min-width: 800px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+}
+
+.product-container-list {
+  min-width: 800px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+}
+
+.store {
+  min-width: 800px;
+}
+
+.store-title {
+  min-width: 800px;
+  text-align: center;
+  /* font-family: 'Carter One', cursive; */
+  font-family: 'Unica One', cursive;
+  font-size: 5em;
+  mask-image: linear-gradient(to bottom, rgb(0, 0, 0, 1), rgb(0, 0, 0, 0))
+}
+
+.style-icons {
+  text-align: center;
+  align-items: center;
+  line-height: middle;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  /* display: inline-block; */
+}
+
+.style-icons2 {
+  margin-right: 50px;
+}

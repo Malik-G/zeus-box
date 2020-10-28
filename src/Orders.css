@@ -1,0 +1,16 @@
+.message-container {
+  min-width: 800px;
+}
+
+.order {
+  min-width: 800px;
+}
+
+.orders-title {
+  min-width: 800px;
+  text-align: center;
+  /* font-family: 'Carter One', cursive; */
+  font-family: 'Unica One', cursive;
+  font-size: 5em;
+  mask-image: linear-gradient(to bottom, rgb(0, 0, 0, 1), rgb(0, 0, 0, 0))
+}

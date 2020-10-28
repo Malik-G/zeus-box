@@ -1,0 +1,19 @@
+.single-order {
+  /* padding: 40px; */
+  margin: 30px auto 30px auto;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  background-color: white;
+  width: 90%;
+  min-width: 800px;
+}
+
+.order-detail {
+  font-weight: 600;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow'
+}
+
+.order-id, .order-date {
+  margin-top: 10px;
+  margin-left: 10px;
+}

@@ -1,0 +1,24 @@
+.message-container {
+  min-width: 800px;
+}
+
+.profile {
+  text-align: center;
+  background: #131921;
+  height: 120vh;
+  min-width: 800px;
+  /* mask-image: linear-gradient(to bottom, rgb(0, 0, 0, 1), rgb(0, 0, 0, 0)) */
+}
+
+.profile-title {
+  color: white;
+  min-width: 800px;
+  text-align: center;
+  /* font-family: 'Carter One', cursive; */
+  /* font-family: 'Caveat', cursive; */
+  /* font-family: 'Comfortaa', cursive; */
+  /* font-family: 'Squada One', cursive; */
+  font-family: 'Unica One', cursive;
+  font-size: 5em;
+  mask-image: linear-gradient(to bottom, rgb(255, 255, 255), rgba(255, 255, 255, 0))
+}
