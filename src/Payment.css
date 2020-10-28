@@ -55,3 +55,36 @@
 .payment-address, .payment-items, .payment-details {
   flex: 0.8
 }
+
+.test-data-light {
+  margin: 50px auto 50px auto;
+  height: 200px;
+  width: 40%;
+  border: 1px solid black;
+  border-radius: 10px;
+  text-align: center;
+  font-family: 'Unica One', cursive;
+  background: #131921;
+  color: white;
+  align-items: center;
+}
+
+.test-data-dark {
+  margin: 50px auto 0px auto;
+  height: 200px;
+  width: 40%;
+  border: 1px solid black;
+  border-radius: 10px;
+  text-align: center;
+  font-family: 'Unica One', cursive;
+  background: whitesmoke;
+}
+
+.test-data-title {
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.test-data-light p {
+  font-size: 18px;
+}

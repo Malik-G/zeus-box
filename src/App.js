@@ -15,9 +15,7 @@ import { Elements } from "@stripe/react-stripe-js";
 import {stripe_key} from "./apiKeys"
 import "./App.css";
 
-// const promise = loadStripe(`${process.env.stripe_key}`);
 const promise = loadStripe(stripe_key);
-
 
 function App() {
   const [ {user}, dispatch] = useStateValue()

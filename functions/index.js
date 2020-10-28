@@ -1,7 +1,9 @@
 const functions = require('firebase-functions');
 const express = require("express");
 const cors = require("cors");
-const stripe = require("stripe")(`${process.env.stripe_payment_key}`);
+require('dotenv').config();
+const stripe_payment_key = require("./apiKeys")
+const stripe = require("stripe")(stripe_payment_key.apiKey);
 
 //App config
 const app = express();
@@ -18,10 +20,12 @@ app.get('/', (req, res) => {
 app.post('/payments/create', async (req, res) => {
   const total = req.query.total;
   console.log(`Payment request received!! Total = ${total}`);
+  // console.log(`THE STRIPE OBJECT ### `, stripe)
   const paymentIntent = await stripe.paymentIntents.create({
     amount: total,
     currency: 'usd',
   })
+  // .catch(error=>{console.log(error)})
   res.status(201).send({ clientSecret: paymentIntent.client_secret })
 })
 

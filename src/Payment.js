@@ -7,7 +7,6 @@ import { CardElement, useElements, useStripe } from '@stripe/react-stripe-js';
 import { db } from './firebase';
 import CurrencyFormat from 'react-currency-format';
 import axios from './axios';
-import swal from "sweetalert";
 import "./Payment.css"
 
 function Payment() {
@@ -55,7 +54,6 @@ function Payment() {
   }
 
   useEffect(() => {
-    swal("Use This Test Data:", "Card Number: 4242 4242 4242 4242 \n\nExpiration: 04/24 \n\nCVC: 242 \n\nPostal: 42424", "info")
     //generate new stripe secret whenever total cost changes, i.e. when the cart updates
     const getClientSecret = async () => {
       const response = await axios({
@@ -126,6 +124,16 @@ function Payment() {
             </form>
           </div>
         </div>
+        <div className="payment-section">
+          <div className="test-data-light">
+            <h1 className="test-data-title">Use This Test Data</h1>
+            <p>Card Number: 4242 4242 4242 4242</p>
+            <p>Expiration: 04/24 </p>
+            <p>CVC: 242</p>
+            <p>Postal: 42424</p>
+          </div>
+        </div>
+        
       </div>
     </div>
   )

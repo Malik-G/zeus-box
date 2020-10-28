@@ -7,8 +7,6 @@ function LoginMessage({messageClass, messageContent}) {
       <h1 className="login-message-title">Logged Out</h1>
       <p>Login to see your {messageContent}</p>
     </div>
-
-
   )
 }
 
