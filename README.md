@@ -4,4 +4,4 @@ The benefits I gained from doing this project were practicing web development wi
 
 Feel free to visit the site, make an account, and test it out. User authentication is handled via Firebase, and your email doesn't have to be real to sign up.
 
-URL: [https://clone-590dd.web.app/orders](http://localhost:3000)
+URL: [https://clone-590dd.web.app/](https://clone-590dd.web.app/)

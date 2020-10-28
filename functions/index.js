@@ -7,7 +7,7 @@ const stripe = require("stripe")(`${process.env.stripe_payment_key}`);
 const app = express();
 
 //Middlewares
-app.use(cors());
+app.use(cors({ origin: true }));
 app.use(express.json());
 
 //API Routes
